@@ -176,7 +176,7 @@
     <div class="fondo">
         <div class="color-fondo">
             <form action="/cenotes/login_session" method="POST" class="login">
-                <img style ="width: 50%;height: 50%;margin-bottom: 44px;" src="views/assets/img/company/LogoCenote.png" alt="Logo Cenotes" class="logo">
+                <img style ="width: 50%;height: 50%;margin-bottom: 44px;" src="assets/img/company/LogoCenote.png" alt="Logo Cenotes" class="logo">
                 <div class="field"><span class="fa fa-user"></span><input type="text" name="email" oninput="mostrarMensaje()"
                         placeholder="Email o Usuario"></div>
                 <div class="field"><span class="fa fa-lock"></span><input type="password" name="password" oninput="mostrarMensaje()"
@@ -186,7 +186,7 @@
 
                 <input type="submit" class="submit" value="Iniciar sesión">
 
-                <span class="login-form-copy">¿No tienes una cuenta?<a href="registro" class="login-form_sign-up">
+                <span class="login-form-copy">¿No tienes una cuenta?<a href="registro.php" class="login-form_sign-up">
                         Regístrate</a></span>
             </form>
         </div>

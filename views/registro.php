@@ -180,7 +180,7 @@
     <div class="container__child signup__thumbnail">
 
         <div class="thumbnail__content text-center">
-            <img style="width: 50%; height: 50%; margin-bottom: 44px;" src="views/assets/img/company/LogoCenote.png" alt="Logo Cenotes" class="logo">
+            <img style="width: 50%; height: 50%; margin-bottom: 44px;" src="assets/img/company/LogoCenote.png" alt="Logo Cenotes" class="logo">
             <h1 class="heading--primary">Bienvenido a Cenote Tickets</h1>
         <h2 class="heading--secondary">Únete como creador de contenido</h2>
     </div>
@@ -221,7 +221,7 @@
             <label for="profileImage">Imagen de perfil (240px x 240px)</label>
             <input class="form-control" type="file" name="profileImage" id="profileImage" accept="image/*" onchange="displayFileName(this)" />
         </div>
-        <img id="profileImagePreview" src="views/assets/img/company/userDefault.png" alt="Imagen por defecto" style="max-width: 150px;max-height: 150px;position: fixed;border-radius: 10%;margin-top: 2%;">
+        <img id="profileImagePreview" src="assets/img/company/userDefault.png" alt="Imagen por defecto" style="max-width: 150px;max-height: 150px;position: fixed;border-radius: 10%;margin-top: 2%;">
 
         <!-- <img id="profileImagePreview" src="" alt="Vista previa de la imagen" style="max-width: 240px; max-height: 240px; margin-top: 10px;"> -->
         <script>
@@ -238,7 +238,7 @@
                 reader.readAsDataURL(input.files[0]);
                 } else {
                 label.textContent = "Imagen de perfil (240px x 240px)";
-                previewImage.src = "views/assets/img/company/userDefault.png";
+                previewImage.src = "assets/img/company/userDefault.png";
                 }
             }
         </script>
@@ -270,7 +270,7 @@
                     <input class="btn btn--form" type="submit" value="REGISTRAR" onchange="click(this)" />
                 </li>
                 <li>
-                    <a class="signup__link" href="/cenotes/login">Ya soy miembro</a>
+                    <a class="signup__link" href="login.php">Ya soy miembro</a>
                 </li>
             </ul>
         </div>
